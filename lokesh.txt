@@ -1,0 +1,13 @@
+# For the first time -->
+git init
+git remote add origin https://github.com/yourusername/your-repo.git
+git add .
+git branch -M main
+git commit -m "Message"
+git push -u origin main
+
+#after that for other time -->
+
+git add .
+git commit -m "Message"
+git push
